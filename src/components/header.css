@@ -1,0 +1,36 @@
+.header_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  /* border: 1px solid black; */
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(247, 247, 247, 1) 24%,
+    rgba(252, 221, 221, 1) 92%
+  );
+}
+.header_main .account_icon {
+  height: 50px;
+  width: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header_main .search_icon {
+  height: 50px;
+  width: 50px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.header_main .header_appname {
+  font-family: sans-serif "roboto";
+  font-weight: bolder;
+  font-size: 1.5em;
+}
