@@ -1,15 +1,7 @@
-.App {
-  text-align: center;
-  font-family: sans-serif "roboto";
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.App_body {
+  font-family: "Graphik";
   color: white;
+}
+.App_body .for_you p {
+  margin-left: 10px;
 }

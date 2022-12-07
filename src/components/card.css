@@ -1,0 +1,7 @@
+.moviecard {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+  border: 1px solid white;
+  /* margin: 0 5px; */
+}
