@@ -1,6 +1,6 @@
 .moviecards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  justify-items: center;
-  margin: 5px 5px;
+  justify-content: center;
+  margin: 5px;
 }

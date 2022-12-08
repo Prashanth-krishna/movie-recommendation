@@ -6,7 +6,13 @@ function MovieCards(props) {
     <div className="moviecards">
       {movies.map((movie) => {
         return (
-          <Card title={movie.title} genre={movie.genre} rating={movie.rating} />
+          <Card
+            key={movie.id}
+            title={movie.title}
+            genre={movie.genre}
+            rating={movie.rating}
+            src={movie.src}
+          />
         );
       })}
     </div>
