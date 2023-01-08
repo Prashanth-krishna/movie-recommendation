@@ -1,6 +1,24 @@
-.moviecards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  margin: 5px;
+@media (min-width: 400px) {
+  .moviecards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    margin: 5px;
+  }
+}
+@media (min-width: 600px) {
+  .moviecards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin: 5px;
+  }
+}
+@media (min-width: 900px) {
+  .moviecards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    margin: 5px;
+  }
 }
