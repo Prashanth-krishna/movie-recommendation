@@ -14,7 +14,7 @@ function Card(props) {
   //   }
   // };
   const OnClickHandler = async () => {
-    var response = await fetch(`https://localhost:7023/api/Movie/${id}`);
+    var response = await fetch(`https://localhost:7265/api/Movie/${id}`);
     if (response.ok) {
       var data = await response.json();
       console.log(data);
@@ -37,11 +37,18 @@ function Card(props) {
         {MovieDetails.length !== 0 && (
           <>
             <small>
-              Directed By : <span>{MovieDetails[0].Director}</span>
+              Directed By : <span>{MovieDetails.directorId}</span>
             </small>
             <small>
-              Starring : {MovieDetails[0].Actor1}, {MovieDetails[0].Actor2},{" "}
-              {MovieDetails[0].Actor3}
+              Starring :
+              {MovieDetails.actors.map((actor) => {
+                return (
+                  <span id={actor.actorId}>
+                    {actor.actorName}
+                    <br />
+                  </span>
+                );
+              })}
             </small>
           </>
         )}

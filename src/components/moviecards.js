@@ -7,11 +7,11 @@ function MovieCards(props) {
       {movies.map((movie) => {
         return (
           <Card
-            key={movie.MovieId}
-            id={movie.MovieId}
-            title={movie.MovieName}
-            genre={movie.Genre1}
-            rating={movie.Rating}
+            key={movie.movieId}
+            id={movie.movieId}
+            title={movie.movieName}
+            genre={movie.genre1}
+            rating={movie.rating}
           />
         );
       })}

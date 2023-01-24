@@ -8,7 +8,7 @@ function App() {
   const [MovieList, SetMovieList] = useState([]);
   useEffect(() => {
     async function fetchdata() {
-      var response = await fetch("https://localhost:7023/api/Movie");
+      var response = await fetch("https://localhost:7265/api/Movie");
       if (response.ok) {
         var data = await response.json();
         console.log(data);
