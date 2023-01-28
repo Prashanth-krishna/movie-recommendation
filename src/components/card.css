@@ -7,11 +7,13 @@
 }
 .moviecard:hover {
   box-shadow: 0 0 4px white;
-  cursor: pointer;
 }
 .moviecard > * {
   display: flex;
   padding: 5px 5px;
+}
+.moviecard .movieimg svg:hover {
+  cursor: pointer;
 }
 .movieimg img {
   height: 120px;
@@ -27,6 +29,15 @@
   margin: 0;
   text-align: center;
 }
+.moviecard .movieinfo h4 {
+  cursor: pointer;
+}
 .moviecard .movieinfo > * {
   margin: 5px;
+}
+.similarMovies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
