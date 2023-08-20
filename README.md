@@ -1,6 +1,6 @@
 ##Movie Recommendation React App.
 
-**DotNet Core Web API as backend**
+**.Net Core Web API as backend**
 
 Check it [Here](https://github.com/Prashanth-krishna/MovieRecommendationAPIs)
 
